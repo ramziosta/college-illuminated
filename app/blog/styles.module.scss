@@ -1,0 +1,24 @@
+.main {
+  background-image: url("../../public/assets/gradient8.png");
+  background-size: cover;
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  padding: 9rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.vectorImage {
+  width: 50%;
+  height: 50%;
+}

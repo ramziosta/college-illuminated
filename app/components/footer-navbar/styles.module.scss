@@ -1,0 +1,18 @@
+/* navbar styles */
+
+.navbar {
+display: flex;
+flex-direction: row;
+
+.list{
+
+list-style-type: none;
+}
+
+.links {
+    color: var(--grey-0);
+    font-family: var(--font-family-work-sans);
+}
+
+}
+

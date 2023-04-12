@@ -1,0 +1,9 @@
+-App break points: mobile: 375px, tablet: 744px, desktop: 1440px
+-@media (min-width: 750px) {}
+    750px and bigger
+-@media (max-width: 400px) {}
+    400px and smaller
+-@media (min-width: 750px) and (max-width: 1400px)
+    750px to 1400px
+-Order of media query should be from smallest to largest.
+    unless directed by the designer, use 600px, 900px, 1200px, and 1800px if you plan on giving the giant-monitor people something special. 
