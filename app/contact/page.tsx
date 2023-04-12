@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage, FormikHelpers } from 'formik';
 import * as Yup from 'yup';
@@ -6,7 +5,7 @@ import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 
 import type { NextPage } from 'next';
 
-interface FormValues {
+interface FormValues extends Record<string, unknown> {
   name: string;
   email: string;
   message: string;
@@ -23,7 +22,6 @@ const validationSchema = Yup.object({
   email: Yup.string().email('Invalid email address').required('Required'),
   message: Yup.string().required('Required'),
 });
-
 
 const Contact: NextPage = () => {
 
