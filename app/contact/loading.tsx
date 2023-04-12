@@ -1,5 +1,5 @@
 export default function loading() {
   return (
-    <div>college Illuminated is Loading...</div>
+    <div>Immersive Experience is Loading...</div>
   )
 }
