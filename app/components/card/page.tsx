@@ -1,16 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 
-
 type Props = {
   owner: {
-    id: string;
+    id: number;
     name: string;
     stack: string;
     image: string;
   };
 };
-
 
 export default function Card({ owner }: Props) {
   return (
